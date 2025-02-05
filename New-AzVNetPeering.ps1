@@ -1,3 +1,5 @@
+#examples New-AzVNetPeering -LocalVNetName "vnet1" -LocalResourceGroup "vnet1-rg" -RemoteVNetName "vnet2" -RemoteResourceGroup "vnet1-rg"
+
 function New-AzVNetPeering {
     param (
         [Parameter(Mandatory = $true)]
