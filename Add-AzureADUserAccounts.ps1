@@ -1,7 +1,7 @@
 # Import Azure AD module
-#Import-Module AzureAD
+Import-Module AzureAD
 
-function Set-AzureADUserAccounts {
+function Add-AzureADUserAccounts {
     param (
         [Parameter(Mandatory = $false)]
         [string]$SingleUserName,
