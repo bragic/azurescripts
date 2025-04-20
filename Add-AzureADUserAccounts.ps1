@@ -1,5 +1,5 @@
 # Import Azure AD module
-Import-Module AzureAD
+#Import-Module AzureAD
 
 function Set-AzureADUserAccounts {
     param (
